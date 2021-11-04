@@ -576,6 +576,16 @@ section.full {
   margin: 34px 0;
   position: relative;
 
+  @include for-phone {
+    height: 47px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @include for-tablet-portrait {
+    height: 80px;
+  }
+
   // &::before {
   //   content: "";
   //   position: absolute;
