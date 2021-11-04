@@ -12594,3 +12594,33 @@ h4 {
     margin-top: 60px;
   }
 }
+
+@media (max-width: 500px) {
+  .swiper-button-prev {
+    left: 10px;
+    right: auto;
+    top: 22px;
+  }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+  .swiper-button-prev {
+    left: 10px;
+    right: auto;
+    top: 38px;
+  }
+}
+
+@media (max-width: 500px) {
+  .swiper-button-next {
+    right: 10px;
+    left: auto;
+    top: 22px;
+  }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+  .swiper-button-next {
+    right: 10px;
+    left: auto;
+    top: 38px;
+  }
+}
